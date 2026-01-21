@@ -4,64 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>柔道整復学 学習ポータル</title>
+    <!-- CSSファイルを読み込む設定 -->
+    <link rel="stylesheet" href="style.css">
     <!-- アイコン用フォント (FontAwesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* 基本設定 */
-        :root {
-            --primary-color: #27ae60;
-            --bg-color: #f4f7f6;
-            --text-color: #333;
-            --card-bg: #ffffff;
-            --shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
+</head>
+<body>
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+    <header>
+        <h1><i class="fa-solid fa-user-nurse"></i> 柔道整復学 学習アプリ</h1>
+        <p>国家試験・定期試験対策ポータル</p>
+    </header>
 
-        body {
-            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            padding-bottom: 50px;
-        }
+    <div class="container">
 
-        /* ヘッダー */
-        header {
-            background: linear-gradient(135deg, #27ae60, #145a32);
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
+        <!-- ① 利用案内セクション -->
+        <div class="guide-section">
+            <div class="guide-title">
+                <i class="fa-solid fa-circle-info text-warning"></i> はじめにお読みください
+            </div>
+            <ul class="guide-steps">
+                <li>
+                    <i class="fa-brands fa-google step-icon"></i>
+                    <div>
+                        <strong>Googleアカウントが必要です</strong><br>
+                        アプリを利用するにはGoogleアカウントでのログインが必要です。
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-floppy-disk step-icon"></i>
+                    <div>
+                        <strong>初回設定（保存）</strong><br>
+                        初回アクセス時、「Driveにコピーを保存」または「Save」ボタンが表示された場合は、押してご自身のドライブに保存してください。
+                    </div>
+                </li>
+            </ul>
+        </div>
 
-        header h1 {
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
+        <!-- ② アプリ一覧セクション -->
+        <div class="app-grid">
 
-        header p {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
+            <!-- アプリ 1: 柔道整復学総論 -->
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon color-judo"><i class="fa-solid fa-hand-holding-medical"></i></div>
+                    <div class="app-title">柔道整復学総論</div>
+                </div>
+                <div class="app-desc">柔道整復学の基礎理論、歴史、評価法などを総合的に学習するアプリです。</div>
+                <a href="https://ai.studio/apps/drive/10VeX266vMuuuMUixOUfC833M5Yppun5R?fullscreenApplet=true" class="launch-btn" target="_blank">アプリを開く <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
 
-        /* コンテナ */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 1rem;
-        }
+            <!-- アプリ 2: 関係法規 -->
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon color-law"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="app-title">関係法規</div>
+                </div>
+                <div class="app-desc">柔道整復師法や医療法など、試験に必要な関係法規を学習します。</div>
+                <a href="https://ai.studio/apps/drive/18IN8xZapKbrwOI0vNzNqYZvzMM8jCzcm?fullscreenApplet=true" class="launch-btn" target="_blank">アプリを開く <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
 
-        /* 使い方ガイドセクション */
-        .guide-section {
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Judo Therapy Study Support</p>
+    </footer>
+
+</body>
+</html><!DOCTYPE html>
             box-shadow: var(--shadow);
             border-left: 5px solid #FFC107;
         }
@@ -622,5 +633,6 @@
 
 </body>
 </html>
+
 
 
