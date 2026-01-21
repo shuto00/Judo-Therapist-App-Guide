@@ -164,8 +164,9 @@ header p {
 }
 
 /* 科目別カラー設定 */
-.color-judo { background-color: #16A085; }
-.color-law  { background-color: #34495e; }
+.color-judo { background-color: #16A085; } /* 柔道整復 (緑) */
+.color-law  { background-color: #34495e; } /* 法規 (紺) */
+.color-anatomy { background-color: #C0392B; } /* 解剖学 (赤) */
 
 /* フッター */
 footer {
