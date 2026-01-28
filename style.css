@@ -68,7 +68,6 @@ header p {
     gap: 10px;
 }
 
-/* 黄色い注意アイコンの色指定 */
 .text-warning {
     color: #FFC107;
 }
@@ -120,6 +119,7 @@ header p {
     gap: 12px;
 }
 
+/* アイコンの共通設定 */
 .app-icon {
     width: 50px;
     height: 50px;
@@ -128,7 +128,8 @@ header p {
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
-    color: white;
+    color: white; /* アイコンの色は白で統一 */
+    background-color: #999; /* 指定がない場合のデフォルト色 */
     flex-shrink: 0;
 }
 
@@ -162,12 +163,6 @@ header p {
 .launch-btn:hover {
     background-color: #1e8449;
 }
-
-/* 科目別カラー設定 */
-.color-judo { background-color: #16A085; }     /* 柔道整復 (緑) */
-.color-law  { background-color: #34495e; }     /* 法規 (紺) */
-.color-anatomy { background-color: #C0392B; }  /* 解剖学 (赤) */
-.color-practice { background-color: #8e44ad; } /* 実技 (紫) */
 
 /* フッター */
 footer {
