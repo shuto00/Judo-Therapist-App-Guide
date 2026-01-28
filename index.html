@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>柔道整復学 学習ポータル</title>
-    <!-- CSSファイルを読み込む設定 -->
+    <!-- style.cssを読み込む -->
     <link rel="stylesheet" href="style.css">
-    <!-- アイコン用フォント (FontAwesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -44,45 +43,64 @@
         <!-- ② アプリ・コンテンツ一覧セクション -->
         <div class="app-grid">
 
-            <!-- 1. 柔道整復学総論 -->
+            <!-- 1. 柔道整復学総論 (緑: #16A085) -->
             <div class="app-card">
                 <div class="app-header">
-                    <div class="app-icon color-judo"><i class="fa-solid fa-hand-holding-medical"></i></div>
+                    <div class="app-icon" style="background-color: #16A085;">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                    </div>
                     <div class="app-title">柔道整復学総論</div>
                 </div>
                 <div class="app-desc">柔道整復学の基礎理論、歴史、評価法などを総合的に学習するアプリです。</div>
                 <a href="https://ai.studio/apps/drive/10VeX266vMuuuMUixOUfC833M5Yppun5R?fullscreenApplet=true" class="launch-btn" target="_blank">アプリを開く <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
 
-            <!-- 2. 関係法規 -->
+            <!-- 2. 関係法規 (紺: #34495e) -->
             <div class="app-card">
                 <div class="app-header">
-                    <div class="app-icon color-law"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <div class="app-icon" style="background-color: #34495e;">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                    </div>
                     <div class="app-title">関係法規</div>
                 </div>
                 <div class="app-desc">柔道整復師法や医療法など、試験に必要な関係法規を学習します。</div>
                 <a href="https://ai.studio/apps/drive/18IN8xZapKbrwOI0vNzNqYZvzMM8jCzcm?fullscreenApplet=true" class="launch-btn" target="_blank">アプリを開く <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
 
-            <!-- 3. 解剖学 -->
+            <!-- 3. 解剖学 (赤: #C0392B) -->
             <div class="app-card">
                 <div class="app-header">
-                    <div class="app-icon color-anatomy"><i class="fa-solid fa-person-rays"></i></div>
+                    <div class="app-icon" style="background-color: #C0392B;">
+                        <i class="fa-solid fa-person-rays"></i>
+                    </div>
                     <div class="app-title">解剖学<br><span style="font-size:0.8em; font-weight:normal;">(泌尿器/生殖器/内分泌)</span></div>
                 </div>
                 <div class="app-desc">人体の構造と機能（泌尿器・生殖器・内分泌系）を重点的に学習します。</div>
                 <a href="https://ai.studio/apps/drive/1PrWjgg0RqdaSK3FyQmAOCiVaVgW4Mpjt?fullscreenApplet=true" class="launch-btn" target="_blank">アプリを開く <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
 
-            <!-- 4. 柔道Ⅰ(実技) テーピング 【新規追加】 -->
+            <!-- 4. 柔道Ⅰ 実技 テーピング (紫: #8e44ad) -->
             <div class="app-card">
                 <div class="app-header">
-                    <div class="app-icon color-practice"><i class="fa-solid fa-bandage"></i></div>
+                    <div class="app-icon" style="background-color: #8e44ad;">
+                        <i class="fa-solid fa-bandage"></i>
+                    </div>
                     <div class="app-title">柔道Ⅰ(実技)<br>テーピング</div>
                 </div>
                 <div class="app-desc">テーピングの巻き方を動画で確認できます。（YouTubeプレイリスト）</div>
-                <!-- YouTubeなのでボタンの色やアイコンを変えると親切ですが、統一感のためクラスはそのまま、アイコンだけ変更しています -->
                 <a href="https://youtube.com/playlist?list=PLa6jxzg0b277gw8mLOx-KnxVknTuM7gQe&si=1beHY8MyvZQgsuMo" class="launch-btn" target="_blank">動画リストを開く <i class="fa-brands fa-youtube"></i></a>
+            </div>
+
+            <!-- 5. 柔整理論Ⅰ 包帯 (オレンジ: #e67e22) 【新規追加】 -->
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon" style="background-color: #e67e22;">
+                        <i class="fa-solid fa-user-injured"></i>
+                    </div>
+                    <div class="app-title">柔整理論Ⅰ<br>包帯</div>
+                </div>
+                <div class="app-desc">包帯法の基本や巻き方を動画で学習できます。（YouTubeプレイリスト）</div>
+                <a href="https://youtube.com/playlist?list=PLa6jxzg0b276mbocCEw5OpnSSnrYxpDXZ&si=5Kkf3B4TsGMWIZkZ" class="launch-btn" target="_blank">動画リストを開く <i class="fa-brands fa-youtube"></i></a>
             </div>
 
         </div>
