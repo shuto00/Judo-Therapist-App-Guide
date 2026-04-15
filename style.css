@@ -181,3 +181,20 @@ footer {
         padding: 1.2rem;
     }
 }
+
+/* カテゴリ見出し（学年ごとのタイトル） */
+.category-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin: 2.5rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.category-title i {
+    font-size: 1.2rem;
+}
